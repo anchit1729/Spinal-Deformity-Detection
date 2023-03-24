@@ -5,9 +5,9 @@
 Note: All code in this directory has been written by me (Anchit Mishra). My partner for the FYP, Xinda Chen, worked independently on his own implementation of pedicle segmentation and reconstruction.
 
 This codebase contains two separate folders:
-1. Segmentation-Anchit - All code pertaining to the deep learning model developed in this project. It provides visualisation, training and inference code for testing purposes, along with a pretrained model in `models/unet_model_v11.pt` and corresponding predictions on 1080 images in the `predictions` folder. 
+1. Segmentation - All code pertaining to the deep learning model developed in this project. It provides visualisation, training and inference code for testing purposes, along with a pretrained model in `models/unet_model_v11.pt` and corresponding predictions on 1080 images in the `predictions` folder. 
 
-2. Reconstruction-Anchit - All code pertaining to the reconstruction script developed in this project. The file `reconstruct.py` contains the actual programming logic used to perform spinal reconstruction. Three instances are also provided as an example to visualise the results obtained from the algorithm; these can be found in the `images` and `annotations` directories.
+2. Reconstruction - All code pertaining to the reconstruction script developed in this project. The file `reconstruct.py` contains the actual programming logic used to perform spinal reconstruction. Three instances are also provided as an example to visualise the results obtained from the algorithm; these can be found in the `images` and `annotations` directories.
 
 NOTE: Due to file upload size constraints, the following directories have not been included, and instead can be downloaded from Google Drive (link: https://drive.google.com/drive/folders/1GTaIWNSFppzXUvkOZOc4TW2Df7BBWdWo?usp=sharing) or provided on request from the author:
 
@@ -15,7 +15,7 @@ NOTE: Due to file upload size constraints, the following directories have not be
 - `human_thoracic_vertebra` - The directory containing assets to render thoracic vertebra models
 - `cleaned_data` - The directory containing a training dataset of 1080 X-ray images and corresponding ground truth labels
 
-Further, the `Segmentation-Anchit` directory has been split into two parts - `Segmentation-1-Anchit` and `Segmentation-2-Anchit`. After downloading, the contents of these directories should be copied into a single `Segmentation-Anchit` folder before use. The `human_lumbar_vertebra` and `human_thoracic_vertebra` folders should be pasted inside the `Reconstruction-Anchit` folder, and the `cleaned_data` folder should be pasted inside the `Segmentation-Anchit` folder. Once this setup is complete, the code may executed normally.
+Further, the `Segmentation` directory has been split into two parts - `Segmentation-1` and `Segmentation-2`. After downloading, the contents of these directories should be copied into a single `Segmentation` folder before use. The `human_lumbar_vertebra` and `human_thoracic_vertebra` folders should be pasted inside the `Reconstruction` folder, and the `cleaned_data` folder should be pasted inside the `Segmentation` folder. Once this setup is complete, the code may executed normally.
 
 ## Segmentation
 
