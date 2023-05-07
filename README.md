@@ -9,7 +9,7 @@ This codebase contains two separate folders:
 
 2. Reconstruction-Anchit - All code pertaining to the reconstruction script developed in this project. The file `reconstruct.py` contains the actual programming logic used to perform spinal reconstruction. Three instances are also provided as an example to visualise the results obtained from the algorithm; these can be found in the `images` and `annotations` directories.
 
-NOTE: Due to file upload size constraints, the following directories have not been included, and instead can be downloaded from Google Drive (link: https://drive.google.com/drive/folders/1GTaIWNSFppzXUvkOZOc4TW2Df7BBWdWo?usp=sharing) or provided on request from the author:
+NOTE: Due to privacy concerns, the dataset is not publicly accessible (ownership lies with the University of Hong Kong and Queen Mary Hospital, Hong Kong).
 
 - `human_lumbar_vertebra` - The directory containing assets to render lumbar vertebra models
 - `human_thoracic_vertebra` - The directory containing assets to render thoracic vertebra models
